@@ -51,7 +51,5 @@ class Program
         translator = new EngToChn()
             .SetNext(new EngToRus());
         translator.Translate();
-
-
     }
 }
